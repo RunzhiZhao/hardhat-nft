@@ -25,7 +25,7 @@ contract PiPiDog is Initializable, ERC721Upgradeable, ERC721URIStorageUpgradeabl
     }
 
     function _baseURI() internal pure override returns (string memory) {
-        return "https://github.com/RunzhiZhao/nft-resource/blob/main/src/";
+        return "https://raw.githubusercontent.com/RunzhiZhao/nft-resource/main/src/";
     }
 
     function pause() public onlyOwner {
